@@ -19,3 +19,8 @@ cd Port-Scanner/
 pip install pyfiglet
 
 python3 scanner.py [target-IP/domain] -p [target-ports] -t [threads]
+
+
+Legal & Ethical Disclaimer
+This tool is for educational and authorized testing purposes only.
+Only use this scanner on systems you own or have explicit written permission to scan. Unauthorized port scanning may violate laws in your jurisdiction.
