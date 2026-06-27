@@ -1,0 +1,21 @@
+usage: scanner.py [-h] [-p PORTS] [-t THREADS] [-T TIMEOUT] target
+Fast & Clean TCP Port Scanner
+positional arguments:
+  target                Target IP address or hostname
+options:
+  -h, --help            show this help message and exit
+  -p, --ports PORTS     Port range to scan (default: 1-1000)
+  -t, --threads THREADS
+                        Number of concurrent threads (default: 200)
+  -T, --timeout TIMEOUT
+                        Connection timeout in seconds (default: 1.0)
+
+Example: 
+OS- CentOS Stream 9 [root user]
+
+sudo dnf install python3-pip -y
+git clone https://github.com/NJc-24/Port-Scanner.git
+cd Port-Scanner/
+pip install pyfiglet
+
+python3 scanner.py [target-IP/domain] -p [target-ports] -t [threads]
